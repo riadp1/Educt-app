@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+}
+
+
+
+body{
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    background: url(/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 800px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 16rem;
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    left: 25%;
+    padding-top: 5rem;
+    gap: 5rem;
+    background: rgb(188 245 245 / 73%);
+    position: relative;
+
+    border-radius: 10%;
+
+
+}
+
+.container .first label{
+    font-size: 30px;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 23%;
+
+}
+
+.container .first input{
+    font-size: 20px;
+    outline: none;
+    border-top: 0px none #ff6550;
+    border-right: 0px none #ff6550;
+    border-bottom: 2px solid #0983ca;
+    border-left: 0px double #ff6550;
+    background: transparent;
+    width: 60%;
+
+
+    
+}
+
+
+
+
+
+.container .second label{
+    font-size: 30px;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 38%;
+
+}
+
+.container .second input{
+    font-size: 20px;
+    outline: none;
+    border-top: 0px none #ff6550;
+    border-right: 0px none #ff6550;
+    border-bottom: 2px solid #0983ca;
+    border-left: 0px double #ff6550;
+    background: transparent;
+    width: 60%;
+}
+
+.container .third{
+    display: flex;
+    padding-left: 8rem;
+    gap: 1rem;
+}
+
+.container .btn{
+    background: #044462;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 30% 0px;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    border-radius: 5%;
+}
+
+
+.lost{
+    position: absolute;
+    display: flex;
+   
+    top: 85%;
+    left: 3%;
+   gap: 5px;
+}
+
+.lost .reg{
+    color: #044462;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .container{
+        min-width: 500px;
+        left: 0;
+
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .container{
+        min-width: 500px;
+        left: 0;
+
+    }
+}
+
